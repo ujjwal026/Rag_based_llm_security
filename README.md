@@ -73,4 +73,22 @@ A Retrieval-Augmented Generation (RAG) system that allows natural language query
 ---
 
 ## 📁 Project Structure
+rag-customer-assistant/
+│
+├── data/
+│ └── customers.csv # Original dataset (500 entries)
+│
+├── embeddings/
+│ └── rag_customer_faiss/ # Vector store with FAISS index + metadata
+│
+├── scripts/
+│ ├── generate_profiles.py # CSV → structured profiles with summaries
+│ └── embed_profiles.py # Embeds profiles into FAISS using MiniLM
+│
+├── app/
+│ ├── main.py # Chat interface to query the RAG model
+│ └── prompt_template.py # LangChain prompt customization
+│
+├── requirements.txt # Python dependencies
+└── README.md # You're reading it
 
