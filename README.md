@@ -54,4 +54,23 @@ Modify `src/index.css`:
 ### Run the Frontend
 ```sh
 npm run dev
+
 ```
+# 🧠 RAG Customer Intelligence Assistant
+
+A Retrieval-Augmented Generation (RAG) system that allows natural language querying over a structured customer dataset using FAISS, HuggingFace embeddings, and a locally running LLaMA 3.2 model via Ollama.
+
+---
+
+## 📦 Features
+
+- 🔍 Ask **any question** about 500 customers — based on **email**, **address**, **avatar color**, **time on app**, **time on website**, **membership length**, and **yearly spend**.
+- 🧠 RAG-powered: Uses vector embeddings of structured customer profiles for high-relevance answers.
+- 📄 Returns **formatted profiles with auto-generated summaries**.
+- 🧾 Includes **source document excerpts** for transparency.
+- ⚙️ Powered by **LangChain**, **FAISS**, **MiniLM**, and **Ollama (LLaMA 3.2)**.
+
+---
+
+## 📁 Project Structure
+
